@@ -38,5 +38,7 @@ var server = spdy.createServer(options, function(req, res) {
   var done = finalhandler(req, res)
   serve(req, res, done)
 });
- 
+
+require('chokidar-socket-emitter')({app: server})
+
 server.listen(3000);

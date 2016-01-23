@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node server.js"
+  },
   "jspm": {
     "name": "app",
     "dependencies": {
@@ -6,6 +9,8 @@
       "plugin-babel": "npm:systemjs-plugin-babel@^0.0.2",
       "react": "npm:react@^0.14.6",
       "react-dom": "npm:react-dom@^0.14.6",
+      "react-transform": "npm:babel-plugin-react-transform@^2.0.0",
+      "react-transform-jspm-hmr": "npm:react-transform-jspm-hmr@^1.0.1",
       "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.4"
     },
     "devDependencies": {},
@@ -64,6 +69,7 @@
     }
   },
   "devDependencies": {
+    "chokidar-socket-emitter": "^0.4.2",
     "finalhandler": "^0.4.1",
     "serve-static": "^1.10.2",
     "spdy": "^3.2.0"

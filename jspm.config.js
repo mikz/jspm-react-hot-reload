@@ -9,6 +9,21 @@ SystemJS.config({
   babelOptions: {
     "presets": [
       "babel-preset-react"
+    ],
+    "plugins": [
+      [
+        "react-transform",
+        {
+          "transforms": [
+            {
+              "transform": "react-transform-jspm-hmr",
+              "imports": [
+                "react"
+              ]
+            }
+          ]
+        }
+      ]
     ]
   },
 
@@ -24,6 +39,8 @@ SystemJS.config({
     "process": "github:jspm/nodelibs-process@0.2.0-alpha",
     "react": "npm:react@0.14.6",
     "react-dom": "npm:react-dom@0.14.6",
+    "react-transform": "npm:babel-plugin-react-transform@2.0.0",
+    "react-transform-jspm-hmr": "npm:react-transform-jspm-hmr@1.0.1",
     "stream": "github:jspm/nodelibs-stream@0.2.0-alpha",
     "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@0.5.4",
     "tty": "github:jspm/nodelibs-tty@0.2.0-alpha",
@@ -72,6 +89,11 @@ SystemJS.config({
     "npm:babel-messages@6.3.18": {
       "map": {
         "babel-runtime": "npm:babel-runtime@5.8.35"
+      }
+    },
+    "npm:babel-plugin-react-transform@2.0.0": {
+      "map": {
+        "array-find": "npm:array-find@1.0.0"
       }
     },
     "npm:babel-plugin-syntax-flow@6.3.13": {
@@ -167,6 +189,12 @@ SystemJS.config({
         "ms": "npm:ms@0.7.1"
       }
     },
+    "npm:global@4.3.0": {
+      "map": {
+        "min-document": "npm:min-document@2.18.0",
+        "process": "npm:process@0.5.2"
+      }
+    },
     "npm:has-ansi@2.0.0": {
       "map": {
         "ansi-regex": "npm:ansi-regex@2.0.0"
@@ -190,6 +218,23 @@ SystemJS.config({
     "npm:loose-envify@1.1.0": {
       "map": {
         "js-tokens": "npm:js-tokens@1.0.2"
+      }
+    },
+    "npm:min-document@2.18.0": {
+      "map": {
+        "dom-walk": "npm:dom-walk@0.1.1"
+      }
+    },
+    "npm:react-proxy@1.1.2": {
+      "map": {
+        "lodash": "npm:lodash@3.10.1",
+        "react-deep-force-update": "npm:react-deep-force-update@1.0.1"
+      }
+    },
+    "npm:react-transform-jspm-hmr@1.0.1": {
+      "map": {
+        "global": "npm:global@4.3.0",
+        "react-proxy": "npm:react-proxy@1.1.2"
       }
     },
     "npm:react@0.14.6": {

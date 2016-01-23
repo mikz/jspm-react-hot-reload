@@ -16,7 +16,7 @@
   if (location.origin.match(/localhost/)) {
     System.trace = true
     readyForMainLoad = System.import('systemjs-hot-reloader').then(function(HotReloader){
-      hr = new HotReloader.default('http://localhost:9080')  // chokidar-socket-emitter port
+      hr = new HotReloader.default('/')  // chokidar-socket-emitter port
     })
   }
   Promise.resolve(readyForMainLoad).then(() => {

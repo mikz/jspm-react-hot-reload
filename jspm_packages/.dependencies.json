@@ -164,5 +164,27 @@
   "npm:ieee754@1.1.6": {},
   "github:jspm/nodelibs-events@0.2.0-alpha": {},
   "npm:react-dom@0.14.6": {},
-  "github:socketio/socket.io-client@1.4.4": {}
+  "github:socketio/socket.io-client@1.4.4": {},
+  "npm:babel-plugin-react-transform@2.0.0": {
+    "array-find": "npm:array-find@^1.0.0"
+  },
+  "npm:array-find@1.0.0": {},
+  "npm:react-proxy@1.1.2": {
+    "lodash": "npm:lodash@^3.7.0",
+    "react-deep-force-update": "npm:react-deep-force-update@^1.0.0"
+  },
+  "npm:react-deep-force-update@1.0.1": {},
+  "npm:global@4.3.0": {
+    "min-document": "npm:min-document@^2.6.1",
+    "process": "npm:process@~0.5.1"
+  },
+  "npm:min-document@2.18.0": {
+    "dom-walk": "npm:dom-walk@^0.1.0"
+  },
+  "npm:process@0.5.2": {},
+  "npm:dom-walk@0.1.1": {},
+  "npm:react-transform-jspm-hmr@1.0.1": {
+    "global": "npm:global@^4.3.0",
+    "react-proxy": "npm:react-proxy@^1.1.1"
+  }
 }
