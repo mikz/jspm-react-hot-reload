@@ -19,7 +19,7 @@ function getDebugSessionKey() {
 const initial = { counter: 0 }
 
 export default function configureStore(reducers, initialState = initial) {
-  const store = window.__store || finalCreateStore(reducers, initialState);
+  const store = finalCreateStore(reducers, initialState);
 
   // Hot reload reducers (requires Webpack or Browserify HMR to be enabled)
   //if (module.hot) {
@@ -28,6 +28,5 @@ export default function configureStore(reducers, initialState = initial) {
   //  );
   //}
 
-  window.__store = store
   return store;
 }

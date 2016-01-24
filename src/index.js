@@ -8,8 +8,16 @@ import Counter from './containers/counter'
 import HelloWorld from './containers/hello_world'
 import reducers from './reducers/index';
 
-const store = configureStore(reducers)
+const store = window.__store || configureStore(reducers)
+delete window.__store
 
+export function __unload() {
+  window.__store = store;
+}
+
+export function __reload(deletedModule) {
+  store.replaceReducer(reducers)
+}
 
 ReactDOM.render((
   <Provider store={store}>
@@ -20,7 +28,3 @@ ReactDOM.render((
     </div>
   </Provider>
 ), document.getElementById('app'))
-
-export function __reload(deletedModule) {
-  store.replaceReducer(reducers)
-}
