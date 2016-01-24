@@ -36,7 +36,7 @@ SystemJS.config({
     "fs": "github:jspm/nodelibs-fs@0.2.0-alpha",
     "net": "github:jspm/nodelibs-net@0.2.0-alpha",
     "path": "github:jspm/nodelibs-path@0.2.0-alpha",
-    "plugin-babel": "npm:systemjs-plugin-babel@0.0.2",
+    "plugin-babel": "github:systemjs/plugin-babel@master",
     "process": "github:jspm/nodelibs-process@0.2.0-alpha",
     "react": "npm:react@0.14.6",
     "react-dom": "npm:react-dom@0.14.6",

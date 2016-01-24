@@ -15,7 +15,6 @@
   "github:jspm/nodelibs-tty@0.2.0-alpha": {},
   "github:jspm/nodelibs-util@0.2.0-alpha": {},
   "github:jspm/nodelibs-net@0.2.0-alpha": {},
-  "npm:systemjs-plugin-babel@0.0.2": {},
   "npm:react@0.14.6": {
     "fbjs": "npm:fbjs@^0.6.1"
   },
@@ -236,5 +235,6 @@
     "lodash._getnative": "npm:lodash._getnative@^3.0.0"
   },
   "npm:smart-mixin@1.2.1": {},
-  "npm:lodash._getnative@3.9.1": {}
+  "npm:lodash._getnative@3.9.1": {},
+  "github:systemjs/plugin-babel@master": {}
 }
