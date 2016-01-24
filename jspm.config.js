@@ -29,6 +29,7 @@ SystemJS.config({
 
   map: {
     "babel-preset-react": "npm:babel-preset-react@6.3.13",
+    "babel-runtime": "npm:babel-runtime@6.3.19",
     "buffer": "github:jspm/nodelibs-buffer@0.2.0-alpha",
     "core-js": "npm:core-js@1.2.6",
     "events": "github:jspm/nodelibs-events@0.2.0-alpha",
@@ -39,8 +40,13 @@ SystemJS.config({
     "process": "github:jspm/nodelibs-process@0.2.0-alpha",
     "react": "npm:react@0.14.6",
     "react-dom": "npm:react-dom@0.14.6",
+    "react-redux": "npm:react-redux@4.0.6",
     "react-transform": "npm:babel-plugin-react-transform@2.0.0",
     "react-transform-jspm-hmr": "npm:react-transform-jspm-hmr@1.0.1",
+    "redux": "npm:redux@3.0.5",
+    "redux-devtools": "npm:redux-devtools@3.0.1",
+    "redux-devtools-dock-monitor": "npm:redux-devtools-dock-monitor@1.0.1",
+    "redux-devtools-log-monitor": "npm:redux-devtools-log-monitor@1.0.2",
     "stream": "github:jspm/nodelibs-stream@0.2.0-alpha",
     "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@0.5.4",
     "tty": "github:jspm/nodelibs-tty@0.2.0-alpha",
@@ -140,6 +146,11 @@ SystemJS.config({
         "babel-plugin-transform-react-jsx-source": "npm:babel-plugin-transform-react-jsx-source@6.3.13"
       }
     },
+    "npm:babel-runtime@6.3.19": {
+      "map": {
+        "core-js": "npm:core-js@1.2.6"
+      }
+    },
     "npm:babel-traverse@6.4.5": {
       "map": {
         "babel-code-frame": "npm:babel-code-frame@6.3.13",
@@ -215,6 +226,11 @@ SystemJS.config({
         "left-pad": "npm:left-pad@0.0.3"
       }
     },
+    "npm:lodash.debounce@3.1.1": {
+      "map": {
+        "lodash._getnative": "npm:lodash._getnative@3.9.1"
+      }
+    },
     "npm:loose-envify@1.1.0": {
       "map": {
         "js-tokens": "npm:js-tokens@1.0.2"
@@ -225,10 +241,34 @@ SystemJS.config({
         "dom-walk": "npm:dom-walk@0.1.1"
       }
     },
+    "npm:react-dock@0.2.3": {
+      "map": {
+        "lodash.debounce": "npm:lodash.debounce@3.1.1",
+        "object-assign": "npm:object-assign@4.0.1"
+      }
+    },
+    "npm:react-json-tree@0.3.0": {
+      "map": {
+        "babel-runtime": "npm:babel-runtime@5.8.35",
+        "react-mixin": "npm:react-mixin@1.7.0"
+      }
+    },
+    "npm:react-mixin@1.7.0": {
+      "map": {
+        "object-assign": "npm:object-assign@2.1.1",
+        "smart-mixin": "npm:smart-mixin@1.2.1"
+      }
+    },
     "npm:react-proxy@1.1.2": {
       "map": {
         "lodash": "npm:lodash@3.10.1",
         "react-deep-force-update": "npm:react-deep-force-update@1.0.1"
+      }
+    },
+    "npm:react-redux@4.0.6": {
+      "map": {
+        "hoist-non-react-statics": "npm:hoist-non-react-statics@1.0.3",
+        "invariant": "npm:invariant@2.2.0"
       }
     },
     "npm:react-transform-jspm-hmr@1.0.1": {
@@ -250,6 +290,33 @@ SystemJS.config({
         "process-nextick-args": "npm:process-nextick-args@1.0.6",
         "string_decoder": "npm:string_decoder@0.10.31",
         "util-deprecate": "npm:util-deprecate@1.0.2"
+      }
+    },
+    "npm:redux-devtools-dock-monitor@1.0.1": {
+      "map": {
+        "babel-runtime": "npm:babel-runtime@6.3.19",
+        "parse-key": "npm:parse-key@0.2.1",
+        "react-dock": "npm:react-dock@0.2.3",
+        "react-pure-render": "npm:react-pure-render@1.0.2"
+      }
+    },
+    "npm:redux-devtools-log-monitor@1.0.2": {
+      "map": {
+        "react-json-tree": "npm:react-json-tree@0.3.0",
+        "react-pure-render": "npm:react-pure-render@1.0.2",
+        "redux-devtools-themes": "npm:redux-devtools-themes@1.0.0"
+      }
+    },
+    "npm:redux-devtools-themes@1.0.0": {
+      "map": {
+        "base16": "npm:base16@1.0.0"
+      }
+    },
+    "npm:redux-devtools@3.0.1": {
+      "map": {
+        "lodash": "npm:lodash@3.10.1",
+        "react-redux": "npm:react-redux@4.0.6",
+        "redux": "npm:redux@3.0.5"
       }
     },
     "npm:repeating@1.1.3": {

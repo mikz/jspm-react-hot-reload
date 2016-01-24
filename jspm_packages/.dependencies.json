@@ -186,5 +186,55 @@
   "npm:react-transform-jspm-hmr@1.0.1": {
     "global": "npm:global@^4.3.0",
     "react-proxy": "npm:react-proxy@^1.1.1"
-  }
+  },
+  "npm:redux@3.0.5": {},
+  "npm:react-redux@4.0.6": {
+    "hoist-non-react-statics": "npm:hoist-non-react-statics@^1.0.3",
+    "invariant": "npm:invariant@^2.0.0"
+  },
+  "npm:hoist-non-react-statics@1.0.3": {},
+  "npm:redux-devtools@3.0.1": {
+    "lodash": "npm:lodash@^3.10.1",
+    "react-redux": "npm:react-redux@^4.0.0",
+    "redux": "npm:redux@^3.0.0"
+  },
+  "npm:redux-devtools-dock-monitor@1.0.1": {
+    "babel-runtime": "npm:babel-runtime@^6.2.0",
+    "parse-key": "npm:parse-key@^0.2.1",
+    "react-dock": "npm:react-dock@^0.2.1",
+    "react-pure-render": "npm:react-pure-render@^1.0.2"
+  },
+  "npm:redux-devtools-log-monitor@1.0.2": {
+    "react-json-tree": "npm:react-json-tree@^0.3.0",
+    "react-pure-render": "npm:react-pure-render@^1.0.2",
+    "redux-devtools-themes": "npm:redux-devtools-themes@^1.0.0"
+  },
+  "npm:babel-runtime@6.3.19": {
+    "core-js": "npm:core-js@^1.2.0"
+  },
+  "npm:redux-devtools-themes@1.0.0": {
+    "base16": "npm:base16@^1.0.0"
+  },
+  "npm:react-dock@0.2.3": {
+    "lodash.debounce": "npm:lodash.debounce@^3.1.1",
+    "object-assign": "npm:object-assign@^4.0.1"
+  },
+  "npm:react-json-tree@0.3.0": {
+    "babel-runtime": "npm:babel-runtime@^5.8.20",
+    "react-mixin": "npm:react-mixin@^1.7.0"
+  },
+  "npm:parse-key@0.2.1": {},
+  "npm:react-pure-render@1.0.2": {},
+  "npm:base16@1.0.0": {},
+  "npm:object-assign@4.0.1": {},
+  "npm:react-mixin@1.7.0": {
+    "object-assign": "npm:object-assign@^2.0.0",
+    "smart-mixin": "npm:smart-mixin@^1.2.0"
+  },
+  "npm:object-assign@2.1.1": {},
+  "npm:lodash.debounce@3.1.1": {
+    "lodash._getnative": "npm:lodash._getnative@^3.0.0"
+  },
+  "npm:smart-mixin@1.2.1": {},
+  "npm:lodash._getnative@3.9.1": {}
 }

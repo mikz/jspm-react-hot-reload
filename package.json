@@ -6,11 +6,17 @@
     "name": "app",
     "dependencies": {
       "babel-preset-react": "npm:babel-preset-react@^6.3.13",
+      "babel-runtime": "npm:babel-runtime@^6.3.19",
       "plugin-babel": "npm:systemjs-plugin-babel@^0.0.2",
       "react": "npm:react@^0.14.6",
       "react-dom": "npm:react-dom@^0.14.6",
+      "react-redux": "npm:react-redux@^4.0.6",
       "react-transform": "npm:babel-plugin-react-transform@^2.0.0",
       "react-transform-jspm-hmr": "npm:react-transform-jspm-hmr@^1.0.1",
+      "redux": "npm:redux@^3.0.5",
+      "redux-devtools": "npm:redux-devtools@^3.0.1",
+      "redux-devtools-dock-monitor": "npm:redux-devtools-dock-monitor@^1.0.1",
+      "redux-devtools-log-monitor": "npm:redux-devtools-log-monitor@^1.0.2",
       "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.4"
     },
     "devDependencies": {},
