@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node server.js"
+    "start": "node node_modules/.bin/jspm-dev-server"
   },
   "jspm": {
     "name": "app",
@@ -75,9 +75,6 @@
     }
   },
   "devDependencies": {
-    "chokidar-socket-emitter": "^0.4.2",
-    "finalhandler": "^0.4.1",
-    "serve-static": "^1.10.2",
-    "spdy": "^3.2.0"
+    "jspm-dev-server": "^0.1.0"
   }
 }

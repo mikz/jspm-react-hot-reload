@@ -163,7 +163,6 @@
   "npm:ieee754@1.1.6": {},
   "github:jspm/nodelibs-events@0.2.0-alpha": {},
   "npm:react-dom@0.14.6": {},
-  "github:socketio/socket.io-client@1.4.4": {},
   "npm:babel-plugin-react-transform@2.0.0": {
     "array-find": "npm:array-find@^1.0.0"
   },
@@ -236,5 +235,6 @@
   },
   "npm:smart-mixin@1.2.1": {},
   "npm:lodash._getnative@3.9.1": {},
-  "github:systemjs/plugin-babel@master": {}
+  "github:systemjs/plugin-babel@master": {},
+  "github:socketio/socket.io-client@1.4.4": {}
 }
