@@ -75,6 +75,7 @@
     }
   },
   "devDependencies": {
+    "jspm": "^0.17.0-beta.5",
     "jspm-dev-server": "^0.1.0"
   }
 }
